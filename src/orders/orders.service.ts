@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Order, db } from 'src/db';
+import { Order, db } from '../db';
 
 @Injectable()
 export class OrdersService {
